@@ -60,7 +60,7 @@ public class Panel extends JPanel implements ActionListener, KeyListener {
 		
 		else {
 			timer.stop();
-			JOptionPane.showMessageDialog(this, "Game Over !\nPoint ="+(point/6+1));
+			JOptionPane.showMessageDialog(this, "Game Over !\nPoint ="+(point/6));
 			System.exit(0);
 		}
 		
